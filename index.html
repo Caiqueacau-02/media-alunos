@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Alunos</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Verificador de Média dos Alunos</h1>
+    </header>
+    <form class="campos">
+        <div class="campos___notas">
+            <label class="campos__textos">Digite a nota do trabalho</label>
+            <input type="text" value="" class="input1">
+
+            <label class="campos__textos">Digite a nota da primeira prova</label>
+            <input type="text" value="" class="input2">
+
+            <label class="campos__textos">Digite a nota da segunda prova</label>
+            <input type="text" value="" class="input3">
+
+            <label class="campos__textos">Digite a nota da prova final</label>
+            <input type="text" value="" class="input4">
+
+            <input type="button" value="Verifcar" onclick="verificar()" class="campos--botao">
+        </div>
+        <div>
+            <p class="resultado"></p>
+        </div>
+    </form>
+
+    <footer>
+       <p>&copy; Feito por Caique Acau</p> 
+    </footer>
+    
+</body>
+    <script src="JS/script.js"></script>
+</html>
