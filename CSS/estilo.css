@@ -55,7 +55,7 @@ footer{
 
 @media (max-width:400px){
     .campos__notas{
-        max-width: 240px;
+        max-width: 200px;
         margin: 0 auto;
     }
 }
